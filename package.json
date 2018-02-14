@@ -1,0 +1,30 @@
+{
+  "name": "react-skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaryOdyntsova/react-skeleton.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaryOdyntsova/react-skeleton/issues"
+  },
+  "homepage": "https://github.com/MaryOdyntsova/react-skeleton#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.1.18",
+    "babelify": "^7.2.0",
+    "http-server": "^0.11.1",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "reflux": "^6.4.1",
+    "watchify": "^3.6.1",
+    "whatwg-fetch": "^2.0.3"
+  }
+}
